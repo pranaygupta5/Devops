@@ -32,4 +32,4 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 [ISC](LICENSE) © 2022 Pranay Gupta <pranaygupta5@gmail.com>
 
-## Probot Testing
+## Probot Integration  Testing
