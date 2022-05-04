@@ -1,7 +1,5 @@
- // const configRaw = await ctx.config("walmart-probot-buddy.yml");
- // const config = configSchema.parse(configRaw);
  const config = {
-   admin_user: "pranaygupta5", // this is owner of the repository we are going to add the bot
+   admin_users: ["pranaygupta5"], // this is owner of the repository we are going to add the bot
    merge_user: "pranaygupta5", // this can be same as the admin any one can merge
    enabled_features: [
      "autolabeler",
@@ -15,4 +13,3 @@
    add_pr_label:"foo",
    sync_base_branch_on_changed_files_intersect:["^libs\/.*\/src\/","^apps\/.*\/app\/"]
  }
-
